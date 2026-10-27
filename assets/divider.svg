@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="24" viewBox="0 0 1000 24" fill="none">
+  <!-- Divisor de seções do tema Burgundy Hacker (fundo transparente). -->
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C2183A"/>
+      <stop offset=".3" stop-color="#800020"/>
+      <stop offset=".75" stop-color="#4A001F" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#4A001F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="8" width="8" height="8" fill="#C2183A"/>
+  <rect x="16" y="11" width="984" height="2" fill="url(#line)"/>
+  <rect x="16" y="9" width="72" height="6" fill="#800020"/>
+</svg>

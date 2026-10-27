@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="804" height="120" viewBox="0 0 804 120" fill="none" role="img" aria-labelledby="title">
+  <!-- Marcador temporário: o workflow .github/workflows/profile-cards.yml substitui
+       este arquivo pela grade real de contribuições na primeira execução. -->
+  <title id="title">Grade de contribuições: aguardando a primeira execução do GitHub Actions</title>
+  <rect x="1" y="1" width="802" height="118" rx="10" stroke="#C2183A" stroke-opacity=".5" stroke-dasharray="6 6"/>
+  <text x="402" y="56" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#C2183A">$ snk --sync contributions</text>
+  <text x="402" y="82" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8B8B95">a grade será gerada pelo GitHub Actions na primeira execução</text>
+</svg>

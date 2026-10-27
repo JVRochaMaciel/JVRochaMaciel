@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168.75" height="48" viewBox="-44 0 900 256" fill="none">
+  <!-- Blocos no estilo do skillicons.dev (tema escuro), desenhados para o tema
+       Burgundy Hacker: Redes de computadores, Hardware e Infraestrutura de TI.
+       O espaçamento à esquerda já está embutido (alinha com o ícone do Linux). -->
+  <title>Redes de computadores, Hardware e Infraestrutura de TI</title>
+
+  <!-- Redes de computadores -->
+  <g>
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <path d="M128 80 72 176M128 80l56 96M72 176h112" stroke="#F1F1F1" stroke-opacity=".85" stroke-width="10"/>
+    <circle cx="128" cy="80" r="24" fill="#242938" stroke="#C2183A" stroke-width="12"/>
+    <circle cx="72" cy="176" r="24" fill="#242938" stroke="#C2183A" stroke-width="12"/>
+    <circle cx="184" cy="176" r="24" fill="#242938" stroke="#C2183A" stroke-width="12"/>
+  </g>
+
+  <!-- Hardware -->
+  <g transform="translate(300 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <path d="M100 44v22M128 44v22M156 44v22M100 190v22M128 190v22M156 190v22M44 100h22M44 128h22M44 156h22M190 100h22M190 128h22M190 156h22" stroke="#F1F1F1" stroke-opacity=".85" stroke-width="10" stroke-linecap="round"/>
+    <rect x="72" y="72" width="112" height="112" rx="16" stroke="#C2183A" stroke-width="12"/>
+    <rect x="104" y="104" width="48" height="48" rx="6" fill="#F1F1F1"/>
+  </g>
+
+  <!-- Infraestrutura de TI -->
+  <g transform="translate(600 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <rect x="56" y="58" width="144" height="40" rx="10" stroke="#C2183A" stroke-width="10"/>
+    <rect x="56" y="108" width="144" height="40" rx="10" stroke="#C2183A" stroke-width="10"/>
+    <rect x="56" y="158" width="144" height="40" rx="10" stroke="#C2183A" stroke-width="10"/>
+    <path d="M80 78h44M80 128h44M80 178h44" stroke="#F1F1F1" stroke-opacity=".7" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="174" cy="78" r="7" fill="#F1F1F1"/>
+    <circle cx="174" cy="128" r="7" fill="#F1F1F1"/>
+    <circle cx="174" cy="178" r="7" fill="#C2183A"/>
+  </g>
+</svg>

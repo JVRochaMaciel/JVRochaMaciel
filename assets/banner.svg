@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">João Vitor Rocha Maciel — Future Software Engineer</title>
+  <desc id="desc">Terminal com o nome João Vitor Rocha Maciel e as frases: Future Software Engineer / Learning. Building. Evolving.</desc>
+  <defs>
+    <radialGradient id="glow" cx="0.86" cy="0" r="0.75">
+      <stop offset="0" stop-color="#4A001F" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#4A001F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.08" cy="1" r="0.55">
+      <stop offset="0" stop-color="#800020" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#800020" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#25252B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.32" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1000" height="340" fill="url(#fade)"/></mask>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C2183A" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#C2183A" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#C2183A" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="window"><rect width="1000" height="340" rx="12"/></clipPath>
+    <clipPath id="pane"><rect x="704" y="100" width="296" height="176"/></clipPath>
+    <clipPath id="type0"><rect x="76.8" y="190" height="34" width="0"><animate attributeName="width" dur="12.26s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0469;0.053;0.0591;0.0652;0.0713;0.0775;0.0836;0.0897;0.0958;0.1019;0.108;0.1141;0.1203;0.1264;0.1325;0.1386;0.1447;0.1508;0.157;0.1631;0.1692;0.1753;0.1814;0.1875;0.402;0.4044;0.4068;0.4093;0.4117;0.4142;0.4166;0.4191;0.4215;0.424;0.4264;0.4289;0.4313;0.4338;0.4362;0.4386;0.4411;0.4435;0.446;0.4484;0.4509;0.4533;0.4558;0.4582" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;345.6;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath>
+    <clipPath id="type1"><rect x="76.8" y="190" height="34" width="0"><animate attributeName="width" dur="12.26s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5051;0.5112;0.5173;0.5234;0.5296;0.5357;0.5418;0.5479;0.554;0.5601;0.5662;0.5724;0.5785;0.5846;0.5907;0.5968;0.6029;0.6091;0.6152;0.6213;0.6274;0.6335;0.6396;0.6457;0.6519;0.658;0.6641;0.6702;0.6763;0.8907;0.8932;0.8956;0.8981;0.9005;0.903;0.9054;0.9079;0.9103;0.9128;0.9152;0.9177;0.9201;0.9225;0.925;0.9274;0.9299;0.9323;0.9348;0.9372;0.9397;0.9421;0.9446;0.947;0.9494;0.9519;0.9543;0.9568;0.9592" values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8;259.2;273.6;288;302.4;316.8;331.2;345.6;360;374.4;388.8;403.2;417.6;403.2;388.8;374.4;360;345.6;331.2;316.8;302.4;288;273.6;259.2;244.8;230.4;216;201.6;187.2;172.8;158.4;144;129.6;115.2;100.8;86.4;72;57.6;43.2;28.8;14.4;0"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+    .blink { animation: blink 1.05s step-end infinite; }
+    .glitch-a { animation: glitch-a 7s infinite; }
+    .glitch-b { animation: glitch-b 7s infinite; }
+    .scan { animation: scan 5.5s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes glitch-a {
+      0%, 90%, 92%, 95%, 100% { opacity: 0; transform: translate(0, 0); }
+      91% { opacity: .9; transform: translate(-4px, -1px); }
+      94% { opacity: .7; transform: translate(3px, 1px); }
+    }
+    @keyframes glitch-b {
+      0%, 90%, 92%, 95%, 100% { opacity: 0; transform: translate(0, 0); }
+      91% { opacity: .8; transform: translate(4px, 1px); }
+      94% { opacity: .6; transform: translate(-2px, 0); }
+    }
+    @keyframes scan { from { transform: translateY(70px); } to { transform: translateY(290px); } }
+    @keyframes pulse { 50% { opacity: .3; } }
+    @media (prefers-reduced-motion: reduce) {
+      .blink, .glitch-a, .glitch-b, .scan, .pulse { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#window)">
+    <rect width="1000" height="340" fill="#0D0D0F"/>
+    <rect width="1000" height="340" fill="url(#glow)"/>
+    <rect width="1000" height="340" fill="url(#glow2)"/>
+    <rect width="1000" height="340" fill="url(#grid)" mask="url(#gridMask)"/>
+
+    <!-- barra de título -->
+    <rect width="1000" height="38" fill="#121216"/>
+    <path d="M0 38.5H1000" stroke="#25252B"/>
+    <circle cx="24" cy="19" r="5.5" fill="#4A001F"/>
+    <circle cx="42" cy="19" r="5.5" fill="#800020"/>
+    <circle cx="60" cy="19" r="5.5" fill="#C2183A"/>
+    <text x="500" y="24" font-size="13" fill="#F1F1F1" fill-opacity=".5" text-anchor="middle">joao@jvrm: ~</text>
+    <text x="976" y="24" font-size="12" fill="#F1F1F1" fill-opacity=".5" text-anchor="end">online</text>
+    <circle class="pulse" cx="920" cy="19.5" r="3.5" fill="#C2183A"/>
+
+    <!-- painel principal -->
+    <text x="48" y="92" font-size="17"><tspan fill="#C2183A">joao@jvrm</tspan><tspan fill="#F1F1F1" fill-opacity=".55">:~$</tspan><tspan fill="#F1F1F1" fill-opacity=".9"> whoami</tspan></text>
+
+    <g font-size="44" font-weight="700" letter-spacing="1">
+      <text class="glitch-a" x="48" y="152" fill="#C2183A" textLength="607">JOÃO VITOR ROCHA MACIEL</text>
+      <text class="glitch-b" x="48" y="152" fill="#F1F1F1" fill-opacity=".6" textLength="607">JOÃO VITOR ROCHA MACIEL</text>
+      <text x="48" y="152" textLength="607"><tspan fill="#F1F1F1">JOÃO VITOR </tspan><tspan fill="#C2183A">ROCHA MACIEL</tspan></text>
+    </g>
+    <rect x="48" y="171" width="64" height="3" fill="#C2183A"/>
+    <rect x="120" y="172" width="535" height="1" fill="#25252B"/>
+
+    <text x="48" y="216" font-size="24" font-weight="700" fill="#C2183A">&gt;</text>
+    <text x="76.8" y="216" font-size="24" fill="#F1F1F1" textLength="345.6" clip-path="url(#type0)">Future Software Engineer</text>
+    <text x="76.8" y="216" font-size="24" fill="#F1F1F1" textLength="417.6" clip-path="url(#type1)">Learning. Building. Evolving.</text>
+    <g class="blink">
+      <rect x="78.8" y="196" width="12" height="25" fill="#C2183A">
+        <animate attributeName="x" dur="12.26s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0469;0.053;0.0591;0.0652;0.0713;0.0775;0.0836;0.0897;0.0958;0.1019;0.108;0.1141;0.1203;0.1264;0.1325;0.1386;0.1447;0.1508;0.157;0.1631;0.1692;0.1753;0.1814;0.1875;0.402;0.4044;0.4068;0.4093;0.4117;0.4142;0.4166;0.4191;0.4215;0.424;0.4264;0.4289;0.4313;0.4338;0.4362;0.4386;0.4411;0.4435;0.446;0.4484;0.4509;0.4533;0.4558;0.4582;0.5051;0.5112;0.5173;0.5234;0.5296;0.5357;0.5418;0.5479;0.554;0.5601;0.5662;0.5724;0.5785;0.5846;0.5907;0.5968;0.6029;0.6091;0.6152;0.6213;0.6274;0.6335;0.6396;0.6457;0.6519;0.658;0.6641;0.6702;0.6763;0.8907;0.8932;0.8956;0.8981;0.9005;0.903;0.9054;0.9079;0.9103;0.9128;0.9152;0.9177;0.9201;0.9225;0.925;0.9274;0.9299;0.9323;0.9348;0.9372;0.9397;0.9421;0.9446;0.947;0.9494;0.9519;0.9543;0.9568;0.9592" values="78.8;93.2;107.6;122;136.4;150.8;165.2;179.6;194;208.4;222.8;237.2;251.6;266;280.4;294.8;309.2;323.6;338;352.4;366.8;381.2;395.6;410;424.4;410;395.6;381.2;366.8;352.4;338;323.6;309.2;294.8;280.4;266;251.6;237.2;222.8;208.4;194;179.6;165.2;150.8;136.4;122;107.6;93.2;78.8;93.2;107.6;122;136.4;150.8;165.2;179.6;194;208.4;222.8;237.2;251.6;266;280.4;294.8;309.2;323.6;338;352.4;366.8;381.2;395.6;410;424.4;438.8;453.2;467.6;482;496.4;482;467.6;453.2;438.8;424.4;410;395.6;381.2;366.8;352.4;338;323.6;309.2;294.8;280.4;266;251.6;237.2;222.8;208.4;194;179.6;165.2;150.8;136.4;122;107.6;93.2;78.8"/>
+      </rect>
+    </g>
+
+    <g>
+    <rect x="48" y="246" width="82.4" height="28" rx="4" fill="#800020" fill-opacity=".12" stroke="#800020"/><text x="58" y="265" font-size="13" fill="#F1F1F1" fill-opacity=".86" letter-spacing=".4">SOFTWARE</text>
+    <rect x="138.4" y="246" width="59" height="28" rx="4" fill="#800020" fill-opacity=".12" stroke="#800020"/><text x="148.4" y="265" font-size="13" fill="#F1F1F1" fill-opacity=".86" letter-spacing=".4">LINUX</text>
+    <rect x="205.4" y="246" width="59" height="28" rx="4" fill="#800020" fill-opacity=".12" stroke="#800020"/><text x="215.4" y="265" font-size="13" fill="#F1F1F1" fill-opacity=".86" letter-spacing=".4">REDES</text>
+    <rect x="272.4" y="246" width="129.2" height="28" rx="4" fill="#800020" fill-opacity=".12" stroke="#800020"/><text x="282.4" y="265" font-size="13" fill="#F1F1F1" fill-opacity=".86" letter-spacing=".4">INFRAESTRUTURA</text>
+    <rect x="409.6" y="246" width="121.4" height="28" rx="4" fill="#800020" fill-opacity=".12" stroke="#800020"/><text x="419.6" y="265" font-size="13" fill="#F1F1F1" fill-opacity=".86" letter-spacing=".4">CYBERSECURITY</text>
+    </g>
+
+    <!-- painel xxd -->
+    <path d="M703.5 39V304" stroke="#25252B"/>
+    <text x="720" y="92" font-size="12"><tspan fill="#C2183A">$</tspan><tspan fill="#F1F1F1" fill-opacity=".75"> xxd -b -c 3 id.bin</tspan></text>
+    <g font-size="11">
+      <text y="118" fill-opacity="0.90"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000000:</tspan><tspan x="786" fill="#C2183A">01001010 01001111 01000001</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">JOA</tspan></text>
+      <text y="136" fill-opacity="0.83"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000003:</tspan><tspan x="786" fill="#C2183A">01001111 00101110 01010110</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">O.V</tspan></text>
+      <text y="154" fill-opacity="0.75"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000006:</tspan><tspan x="786" fill="#C2183A">01001001 01010100 01001111</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">ITO</tspan></text>
+      <text y="172" fill-opacity="0.68"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000009:</tspan><tspan x="786" fill="#C2183A">01010010 00101110 01010010</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">R.R</tspan></text>
+      <text y="190" fill-opacity="0.60"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">0000000c:</tspan><tspan x="786" fill="#C2183A">01001111 01000011 01001000</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">OCH</tspan></text>
+      <text y="208" fill-opacity="0.53"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">0000000f:</tspan><tspan x="786" fill="#C2183A">01000001 00101110 01001101</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">A.M</tspan></text>
+      <text y="226" fill-opacity="0.45"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000012:</tspan><tspan x="786" fill="#C2183A">01000001 01000011 01001001</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">ACI</tspan></text>
+      <text y="244" fill-opacity="0.38"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000015:</tspan><tspan x="786" fill="#C2183A">01000101 01001100 00101110</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">EL.</tspan></text>
+      <text y="262" fill-opacity="0.30"><tspan x="720" fill="#F1F1F1" fill-opacity=".38">00000018:</tspan><tspan x="786" fill="#C2183A">01000100 01000101 01010110</tspan><tspan x="964" fill="#F1F1F1" fill-opacity=".55">DEV</tspan></text>
+    </g>
+    <g clip-path="url(#pane)">
+      <rect class="scan" x="704" y="-30" width="296" height="40" fill="url(#scan)"/>
+    </g>
+
+    <!-- barra de status -->
+    <rect y="304" width="1000" height="36" fill="#121216"/>
+    <path d="M0 304.5H1000" stroke="#25252B"/>
+    <rect x="0" y="305" width="86" height="35" fill="#800020"/>
+    <text x="43" y="327" font-size="12" font-weight="700" fill="#F1F1F1" text-anchor="middle">[jvrm]</text>
+    <text x="102" y="327" font-size="12" fill="#F1F1F1" fill-opacity=".6">0:bash*  1:xxd</text>
+    <text x="976" y="327" font-size="12" fill="#C2183A" text-anchor="end">01001010 01010110</text>
+  </g>
+  <rect x=".75" y=".75" width="998.5" height="338.5" rx="11.5" fill="none" stroke="#4A001F" stroke-width="1.5"/>
+</svg>

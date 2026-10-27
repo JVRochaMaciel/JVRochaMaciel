@@ -1,0 +1,98 @@
+# Gera os cards de estatísticas do README dentro do próprio repositório.
+# Os SVGs ficam em profile/ e o README os referencia por caminho relativo,
+# então o perfil não depende de nenhum endpoint público no momento da visita.
+name: Atualizar cards do perfil
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # todos os dias às 03:17 (horário de Brasília)
+  workflow_dispatch: # permite rodar manualmente pela aba Actions
+  push:
+    paths:
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Cada etapa usa continue-on-error: se uma API falhar, as outras seguem
+      # e o card anterior é mantido (fail_on_error evita salvar um card de erro).
+      - name: Card de estatísticas
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+          options: >-
+            {"username": "${{ github.repository_owner }}",
+             "show_icons": true, "hide_rank": true, "include_all_commits": true,
+             "card_width": 400,
+             "custom_title": "Estatísticas do GitHub", "locale": "pt-br",
+             "bg_color": "0D0D0F", "title_color": "C2183A", "text_color": "F1F1F1",
+             "icon_color": "C2183A", "border_color": "4A001F", "border_radius": 10,
+             "disable_animations": true}
+
+      - name: Card de linguagens
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+          options: >-
+            {"username": "${{ github.repository_owner }}",
+             "layout": "compact", "langs_count": 6, "card_width": 400,
+             "exclude_repo": "${{ github.repository_owner }}", "locale": "pt-br",
+             "bg_color": "0D0D0F", "title_color": "C2183A", "text_color": "F1F1F1",
+             "border_color": "4A001F", "border_radius": 10,
+             "disable_animations": true}
+
+      - name: Card de sequência de contribuições
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: >-
+            {"user": "${{ github.repository_owner }}",
+             "locale": "pt_BR", "date_format": "j/n[/Y]",
+             "card_width": 400, "card_height": 195,
+             "border_radius": 10, "background": "0D0D0F", "border": "4A001F",
+             "stroke": "25252B", "ring": "C2183A", "fire": "C2183A",
+             "currStreakNum": "F1F1F1", "sideNums": "F1F1F1",
+             "currStreakLabel": "C2183A", "sideLabels": "F1F1F1",
+             "dates": "8B8B95", "excludeDaysLabel": "8B8B95",
+             "disable_animations": "true"}
+
+      # Cores translúcidas (#RRGGBBAA): o mesmo SVG funciona no tema claro e no escuro.
+      - name: Grade de contribuições
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/contributions.svg?palette=github-light&color_snake=#C2183A&color_dots=#8B8B9526,#C2183A40,#C2183A73,#C2183AA6,#C2183AD9
+
+      - name: Salvar cards no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          if git diff --cached --quiet; then
+            echo "Nenhum card mudou."
+            exit 0
+          fi
+          git commit -m "chore: atualiza cards do perfil"
+          git push

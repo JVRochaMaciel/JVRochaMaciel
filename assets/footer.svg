@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" fill="none" role="img" aria-labelledby="title">
+  <!-- Rodapé do tema Burgundy Hacker (fundo transparente).
+       Linha 1: "LEARNING. BUILDING. EVOLVING." em binário (ASCII).
+       Linha 2: "SOFTWARE/LINUX/REDES/INFRA/SECURITY/" em binário.
+       Destaque: 01001010 01010110 = "JV". -->
+  <title id="title">Fim do perfil: 01001010 01010110 (JV) — obrigado pela visita</title>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#fff"/>
+      <stop offset=".8" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#800020" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#C2183A"/>
+      <stop offset="1" stop-color="#800020" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edges"><rect width="1000" height="120" fill="url(#fade)"/></mask>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+    .row-a { animation: row-a 80s linear infinite; }
+    .row-b { animation: row-b 110s linear infinite; }
+    @keyframes row-a { to { transform: translateX(-1782px); } }
+    @keyframes row-b { from { transform: translateX(-2138.4px); } to { transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { .row-a, .row-b { animation: none; } }
+  </style>
+
+  <g mask="url(#edges)" font-size="11" fill="#C2183A">
+    <g class="row-a" fill-opacity=".5">
+      <text x="0" y="20" textLength="1782">01001100 01000101 01000001 01010010 01001110 01001001 01001110 01000111 00101110 00100000 01000010 01010101 01001001 01001100 01000100 01001001 01001110 01000111 00101110 00100000 01000101 01010110 01001111 01001100 01010110 01001001 01001110 01000111 00101110 00100000 </text>
+      <text x="1782" y="20" textLength="1782">01001100 01000101 01000001 01010010 01001110 01001001 01001110 01000111 00101110 00100000 01000010 01010101 01001001 01001100 01000100 01001001 01001110 01000111 00101110 00100000 01000101 01010110 01001111 01001100 01010110 01001001 01001110 01000111 00101110 00100000 </text>
+    </g>
+    <g class="row-b" fill-opacity=".26">
+      <text x="0" y="38" textLength="2138.4">01010011 01001111 01000110 01010100 01010111 01000001 01010010 01000101 00101111 01001100 01001001 01001110 01010101 01011000 00101111 01010010 01000101 01000100 01000101 01010011 00101111 01001001 01001110 01000110 01010010 01000001 00101111 01010011 01000101 01000011 01010101 01010010 01001001 01010100 01011001 00101111 </text>
+      <text x="2138.4" y="38" textLength="2138.4">01010011 01001111 01000110 01010100 01010111 01000001 01010010 01000101 00101111 01001100 01001001 01001110 01010101 01011000 00101111 01010010 01000101 01000100 01000101 01010011 00101111 01001001 01001110 01000110 01010010 01000001 00101111 01010011 01000101 01000011 01010101 01010010 01001001 01010100 01011001 00101111 </text>
+    </g>
+  </g>
+
+  <rect x="300" y="56" width="400" height="1" fill="url(#rule)"/>
+  <text x="500" y="86" font-size="18" font-weight="700" fill="#C2183A" text-anchor="middle" letter-spacing="2">01001010 01010110</text>
+  <text x="500" y="108" font-size="12" fill="#8B8B95" text-anchor="middle">EOF · obrigado pela visita</text>
+</svg>
