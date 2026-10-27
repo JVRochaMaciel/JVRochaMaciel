@@ -17,7 +17,7 @@
 
 <br>
 
-**Estudante de TI construindo uma base sólida — do hardware ao código — rumo à Engenharia de Software.**
+**Estudante de TI construindo uma base sólida — do hardware ao código — rumo à Engenharia.**
 
 <img src="https://img.shields.io/badge/T%C3%A9cnico_em_Inform%C3%A1tica-Senac-800020?style=flat-square&labelColor=0D0D0F" alt="Técnico em Informática — Senac">
 <img src="https://img.shields.io/badge/Cisco-2_certifica%C3%A7%C3%B5es-800020?style=flat-square&logo=cisco&logoColor=F1F1F1&labelColor=0D0D0F" alt="Cisco — 2 certificações">
