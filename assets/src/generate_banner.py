@@ -15,10 +15,10 @@ from xml.sax.saxutils import escape
 FIRST_NAME = "JOÃO VITOR"
 LAST_NAME = "ROCHA MACIEL"
 PROMPT_USER = "joao@jvrm"
-PHRASES = ["Future Software Engineer", "Learning. Building. Evolving."]
+PHRASES = ["Building my future in technology...", "Learning. Building. Evolving."]
 CHIPS = ["SOFTWARE", "LINUX", "REDES", "INFRAESTRUTURA", "CYBERSECURITY"]
 # Texto codificado no painel "xxd -b" (somente ASCII, 3 bytes por linha).
-HEXDUMP_TEXT = "JOAO.VITOR.ROCHA.MACIEL.DEV"
+HEXDUMP_TEXT = "JOAO.VITOR.ROCHA.MACIEL//TI"
 
 # ------------------------------------------------------------------ paleta --
 BURGUNDY = "#800020"

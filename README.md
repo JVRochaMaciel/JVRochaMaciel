@@ -13,15 +13,11 @@
 
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Terminal exibindo o nome João Vitor Rocha Maciel e a frase Future Software Engineer">
+<img src="./assets/banner.svg" width="100%" alt="Terminal exibindo o nome João Vitor Rocha Maciel e a frase Building my future in technology">
 
 <br>
 
-**Estudante de TI construindo uma base sólida — do hardware ao código — rumo à Engenharia.**
-
-<img src="https://img.shields.io/badge/T%C3%A9cnico_em_Inform%C3%A1tica-Senac-800020?style=flat-square&labelColor=0D0D0F" alt="Técnico em Informática — Senac">
-<img src="https://img.shields.io/badge/Cisco-2_certifica%C3%A7%C3%B5es-800020?style=flat-square&logo=cisco&logoColor=F1F1F1&labelColor=0D0D0F" alt="Cisco — 2 certificações">
-<img src="https://img.shields.io/badge/Red_Hat-3_certifica%C3%A7%C3%B5es-800020?style=flat-square&logo=redhat&logoColor=F1F1F1&labelColor=0D0D0F" alt="Red Hat — 3 certificações">
+**Estudante de Tecnologia da Informação, explorando diferentes áreas da tecnologia, desenvolvendo minhas habilidades e construindo meu caminho profissional.**
 
 </div>
 
@@ -29,24 +25,35 @@
 
 ### `0x01` Sobre mim
 
-Minha base em TI começou pelo funcionamento das máquinas — hardware, software e redes — e é dela que vem o meu jeito de aprender: entender a camada de baixo antes de construir a de cima. Hoje levo essa curiosidade para o código, com um objetivo claro: me tornar **Engenheiro de Software**.
+Minha base em TI começou pelo funcionamento das máquinas — hardware, software e redes — e é dela que vem o meu jeito de aprender: entender a camada de baixo antes de construir a de cima.
 
-Estudo com método, valido o que aprendo com certificações e uso este GitHub como registro da minha evolução.
+Ainda estou descobrindo onde quero me aprofundar, e encaro isso como parte do processo: experimentar, praticar e conectar áreas diferentes. Este GitHub é o registro dessa evolução.
+
+**Formação**
+
+- **Ensino Médio Técnico** — Escola Maria Nilde · São Bernardo do Campo
+- **Técnico em Informática** — Senac São Bernardo do Campo
+
+<img src="./assets/divider.svg" width="100%" alt="">
+
+### `0x02` Interesses em tecnologia
+
+As áreas que guiam meus estudos hoje:
 
 ```text
-$ cat perfil.txt
-objetivo   Engenharia de Software
-foco       desenvolvimento · Linux
-           redes · infraestrutura de TI
-interesse  cybersecurity
-modo       aprendizado contínuo
+$ ls ~/interesses
+desenvolvimento/   linux/   redes/
+infraestrutura/    cybersecurity/
+
+$ echo $MODO
+aprendizado contínuo
 ```
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-### `0x02` Tecnologias e ferramentas
+### `0x03` Tecnologias e ferramentas
 
-Ferramentas que uso nos estudos e projetos — cada uma em um estágio diferente de prática.
+Ferramentas que uso nos estudos — cada uma em um estágio diferente de prática.
 
 <!-- Ícones do skillicons.dev: para adicionar ou remover, edite a lista depois de "i=".
      Lista de nomes disponíveis: https://github.com/tandpfun/skill-icons#icons-list -->
@@ -69,7 +76,7 @@ Ferramentas que uso nos estudos e projetos — cada uma em um estágio diferente
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-### `0x03` Estatísticas do GitHub
+### `0x04` Estatísticas do GitHub
 
 <!-- Os cards abaixo são gerados todos os dias pelo workflow .github/workflows/profile-cards.yml
      a partir dos dados públicos da conta. Para mudar cores ou opções, edite esse arquivo. -->
@@ -89,61 +96,7 @@ Ferramentas que uso nos estudos e projetos — cada uma em um estágio diferente
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-### `0x04` Projetos em destaque
-
-<!-- PERSONALIZE: substitua os dois blocos abaixo pelos seus projetos reais.
-     - Troque o nome, a descrição, as tecnologias (entre crases) e os links.
-     - Para adicionar um projeto, copie um bloco inteiro e mude o número.
-     - Se o projeto não tiver demonstração, apague o badge "Demo". -->
-
-#### `01` NOME DO PROJETO
-
-[Descreva em uma ou duas frases o que o projeto faz, qual problema resolve e o que você aprendeu ao construí-lo.]
-
-`TECNOLOGIA` `TECNOLOGIA` `TECNOLOGIA`
-
-<a href="https://github.com/JVRochaMaciel/NOME-DO-REPOSITORIO"><img src="https://img.shields.io/badge/Reposit%C3%B3rio-800020?style=flat-square&logo=github&logoColor=F1F1F1" alt="Repositório"></a>
-<a href="https://LINK-DA-DEMONSTRACAO"><img src="https://img.shields.io/badge/Demo_%E2%86%97-25252B?style=flat-square" alt="Demonstração"></a>
-
-#### `02` NOME DO PROJETO
-
-[Descreva em uma ou duas frases o que o projeto faz, qual problema resolve e o que você aprendeu ao construí-lo.]
-
-`TECNOLOGIA` `TECNOLOGIA`
-
-<a href="https://github.com/JVRochaMaciel/NOME-DO-REPOSITORIO"><img src="https://img.shields.io/badge/Reposit%C3%B3rio-800020?style=flat-square&logo=github&logoColor=F1F1F1" alt="Repositório"></a>
-<a href="https://LINK-DA-DEMONSTRACAO"><img src="https://img.shields.io/badge/Demo_%E2%86%97-25252B?style=flat-square" alt="Demonstração"></a>
-
-<img src="./assets/divider.svg" width="100%" alt="">
-
-### `0x05` Formação e certificações
-
-<!-- PERSONALIZE: complete os períodos (ex.: 2023 – 2025 ou "em andamento"). -->
-
-**Formação**
-
-- **Ensino Médio Técnico** — Escola Maria Nilde · São Bernardo do Campo <!-- PERSONALIZE: período -->
-- **Técnico em Informática** — Senac São Bernardo do Campo · certificado <!-- PERSONALIZE: ano -->
-
-**Certificações técnicas** — Hardware · Software · Redes <!-- PERSONALIZE: instituição emissora e ano, se quiser -->
-
-<!-- PERSONALIZE: troque os textos entre colchetes pelo nome exato de cada certificação,
-     a data de emissão e o link público de verificação (ex.: Credly ou a página do emissor). -->
-
-**Cisco** · 2 certificações
-
-- [NOME DA CERTIFICAÇÃO CISCO 1] — [MÊS/ANO] · [verificar credencial](https://LINK-DE-VERIFICACAO)
-- [NOME DA CERTIFICAÇÃO CISCO 2] — [MÊS/ANO] · [verificar credencial](https://LINK-DE-VERIFICACAO)
-
-**Red Hat** · 3 certificações
-
-- [NOME DA CERTIFICAÇÃO RED HAT 1] — [MÊS/ANO] · [verificar credencial](https://LINK-DE-VERIFICACAO)
-- [NOME DA CERTIFICAÇÃO RED HAT 2] — [MÊS/ANO] · [verificar credencial](https://LINK-DE-VERIFICACAO)
-- [NOME DA CERTIFICAÇÃO RED HAT 3] — [MÊS/ANO] · [verificar credencial](https://LINK-DE-VERIFICACAO)
-
-<img src="./assets/divider.svg" width="100%" alt="">
-
-### `0x06` Contato
+### `0x05` Contato
 
 Quer conversar sobre tecnologia, estudos ou projetos? Estes são os melhores canais:
 
