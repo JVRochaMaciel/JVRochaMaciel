@@ -98,7 +98,6 @@ Ferramentas que uso nos estudos — cada uma em um estágio diferente de prátic
 
 ### `0x05` Contato
 
-Quer conversar sobre tecnologia, estudos ou projetos? Estes são os melhores canais:
 
 <!-- PERSONALIZE: troque os links. No e-mail, mantenha o "mailto:" antes do endereço.
      Se não tiver portfólio, apague o badge inteiro (do <a> até o </a>).
