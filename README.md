@@ -7,7 +7,7 @@
     assets/banner.svg           cabeçalho (gerado por assets/src/generate_banner.py)
     assets/divider.svg          divisor entre seções
     assets/footer.svg           rodapé binário
-    assets/icons/               ícones locais (Canva e infraestrutura)
+    assets/icons/               ícones locais (Composer e infraestrutura)
     profile/                    cards de estatísticas (gerados pelo GitHub Actions)
 -->
 
@@ -54,20 +54,20 @@ Ferramentas que uso nos estudos — cada uma em um estágio diferente de prátic
      Lista de nomes disponíveis: https://github.com/tandpfun/skill-icons#icons-list -->
 
 **Linguagens**<br>
-<img src="https://skillicons.dev/icons?i=py,cs,js,html,css&theme=dark" height="40" alt="Python, C#, JavaScript, HTML e CSS"><br>
-<sub>Python · C# · JavaScript · HTML · CSS</sub>
+<img src="https://skillicons.dev/icons?i=py,cs,js,php,html,css&theme=dark" height="40" alt="Python, C#, JavaScript, PHP, HTML e CSS"><br>
+<sub>Python · C# · JavaScript · PHP · HTML · CSS</sub>
 
-**Frameworks, bibliotecas e banco de dados**<br>
-<img src="https://skillicons.dev/icons?i=react,bootstrap,mysql&theme=dark" height="40" alt="React, Bootstrap e MySQL"><br>
-<sub>React · Bootstrap · MySQL</sub>
+**Frameworks, runtimes e bancos de dados**<br>
+<img src="https://skillicons.dev/icons?i=react,nodejs,mysql,postgres,supabase&theme=dark" height="40" alt="React, Node.js, MySQL, PostgreSQL e Supabase"><br>
+<sub>React · Node.js · MySQL · PostgreSQL · Supabase</sub>
 
 **Ferramentas de desenvolvimento**<br>
-<img src="https://skillicons.dev/icons?i=git,github,visualstudio,vscode&theme=dark" height="40" alt="Git, GitHub, Visual Studio e Visual Studio Code"><img src="./assets/icons/canva.svg" height="40" alt="Canva"><br>
-<sub>Git · GitHub · Visual Studio · VS Code · Canva</sub>
+<img src="https://skillicons.dev/icons?i=git,github,visualstudio,vscode&theme=dark" height="40" alt="Git, GitHub, Visual Studio e Visual Studio Code"><img src="./assets/icons/composer.svg" height="40" alt="Composer"><br>
+<sub>Git · GitHub · Visual Studio · VS Code · Composer</sub>
 
 **Infraestrutura**<br>
-<img src="https://skillicons.dev/icons?i=linux&theme=dark" height="40" alt="Linux"><img src="./assets/icons/infra.svg" height="40" alt="Redes de computadores, Hardware e Infraestrutura de TI"><br>
-<sub>Linux · Redes de computadores · Hardware · Infraestrutura de TI</sub>
+<img src="https://skillicons.dev/icons?i=linux,docker&theme=dark" height="40" alt="Linux e Docker"><img src="./assets/icons/infra.svg" height="40" alt="Redes de computadores, Hardware e Infraestrutura de TI"><br>
+<sub>Linux · Docker · Redes de computadores · Hardware · Infraestrutura de TI</sub>
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
