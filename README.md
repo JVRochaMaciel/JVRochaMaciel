@@ -29,11 +29,6 @@ Minha base em TI começou pelo funcionamento das máquinas — hardware, softwar
 
 Ainda estou descobrindo onde quero me aprofundar, e encaro isso como parte do processo: experimentar, praticar e conectar áreas diferentes. Este GitHub é o registro dessa evolução.
 
-**Formação**
-
-- **Ensino Médio Técnico** — Escola Maria Nilde · São Bernardo do Campo
-- **Técnico em Informática** — Senac São Bernardo do Campo
-
 <img src="./assets/divider.svg" width="100%" alt="">
 
 ### `0x02` Interesses em tecnologia
