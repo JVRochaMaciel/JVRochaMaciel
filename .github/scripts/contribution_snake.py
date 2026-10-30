@@ -160,7 +160,6 @@ def render(days):
         ".c{shape-rendering:geometricPrecision;fill:var(--ce);stroke-width:1px;"
         f"stroke:var(--cb);animation:none {duration}ms linear infinite}}",
         f".s{{shape-rendering:geometricPrecision;fill:var(--cs);animation:none linear {duration}ms infinite}}",
-        "@media (prefers-reduced-motion:reduce){.c{animation:none!important}.s{display:none}}",
     ]
     rects = []
     for n, (x, y) in enumerate(sorted(cells)):
