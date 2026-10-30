@@ -85,6 +85,11 @@ jobs:
           outputs: |
             profile/contributions.svg?palette=github-light&color_snake=#C2183A&color_dots=#8B8B9526,#C2183A40,#C2183A73,#C2183AA6,#C2183AD9
 
+      # Mantém a cobrinha dentro do quadro: recorta a imagem na área da grade.
+      - name: Recortar grade de contribuições
+        continue-on-error: true
+        run: python3 .github/scripts/clip_contributions.py profile/contributions.svg
+
       - name: Salvar cards no repositório
         run: |
           git config user.name "github-actions[bot]"
