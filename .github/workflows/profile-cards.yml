@@ -76,19 +76,12 @@ jobs:
              "dates": "8B8B95", "excludeDaysLabel": "8B8B95",
              "disable_animations": "true"}
 
-      # Cores translúcidas (#RRGGBBAA): o mesmo SVG funciona no tema claro e no escuro.
+      # Grade com a cobrinha que só anda dentro das células (cores no próprio script).
       - name: Grade de contribuições
         continue-on-error: true
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            profile/contributions.svg?palette=github-light&color_snake=#C2183A&color_dots=#8B8B9526,#C2183A40,#C2183A73,#C2183AA6,#C2183AD9
-
-      # Mantém a cobrinha dentro do quadro: recorta a imagem na área da grade.
-      - name: Recortar grade de contribuições
-        continue-on-error: true
-        run: python3 .github/scripts/clip_contributions.py profile/contributions.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/contribution_snake.py profile/contributions.svg --user "${{ github.repository_owner }}"
 
       - name: Salvar cards no repositório
         run: |
