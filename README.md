@@ -85,7 +85,7 @@ Ferramentas que uso nos estudos — cada uma em um estágio diferente de prátic
 <br>
 <img src="./profile/contributions.svg" width="804" alt="Grade de contribuições do último ano">
 
-<sub>Dados reais da conta, atualizados diariamente pelo GitHub Actions</sub>
+<sub>Dados reais da conta, atualizados diariamente pelo GitHub Actions.</sub>
 
 </div>
 
